@@ -1,0 +1,13 @@
+prefix=/Users/godipally.shivakumar/Desktop/Projects/Langcahain/langchainenv
+exec_prefix=/Users/godipally.shivakumar/Desktop/Projects/Langcahain/langchainenv
+libdir=/Users/godipally.shivakumar/Desktop/Projects/Langcahain/langchainenv/lib
+sharedlibdir=/Users/godipally.shivakumar/Desktop/Projects/Langcahain/langchainenv/lib
+includedir=/Users/godipally.shivakumar/Desktop/Projects/Langcahain/langchainenv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
