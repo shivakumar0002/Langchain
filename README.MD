@@ -1,8 +1,26 @@
 # LangChain Project
 
-This project utilizes [LangChain](https://github.com/langchain-ai/langchain) to build applications powered by language models.
+# 🌟 LangChain Project – Celebrity Explorer
 
-## Getting Started
+This project utilizes [LangChain](https://github.com/langchain-ai/langchain) to build Streamlit apps powered by OpenAI's language models.
+
+The latest version (`example1.py`) demonstrates a **multi-step reasoning chain** to:
+1. Get details about a celebrity
+2. Identify their birthdate
+3. Retrieve major world events around that time
+
+---
+
+## 🧠 Features
+
+- ✨ LangChain + OpenAI integration
+- 📄 Prompt chaining with `SequentialChain`
+- ⚡ Streamlit UI
+- 🔐 API key security via `constants.py`
+
+---
+
+## 🚀 Getting Started
 
 ### 1. Clone the Repository
 
@@ -33,12 +51,20 @@ conda deactivate
 ```bash
 pip install -r requirements.txt
 ```
+
 ### 4.	Add your OpenAI API key
 Create a file named constants.py and add:
 ```bash
 openai_key = "your-openai-key-here"
 ```
+
+
 ### 5.	Run the App
+▶ Basic App
 ```bash
-streamlit run main.py
+streamlit run main.py 
+```
+▶ Multi-Step Chain (Recommended)
+```bash
+streamlit run example1.py
 ```
