@@ -68,3 +68,14 @@ streamlit run main.py
 ```bash
 streamlit run example1.py
 ```
+
+
+## 📸 Project Results
+
+### 🎯 Multi-Step LangChain Output
+
+<img src="project_results/Screenshot 2025-04-17 at 3.58.48 PM.png" alt="Screenshot 1" width="600"/>
+
+### 🔎 Streamlit UI View
+
+<img src="project_results/Screenshot 2025-04-17 at 3.58.58 PM.png" alt="Screenshot 2" width="600"/>
